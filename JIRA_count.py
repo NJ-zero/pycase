@@ -1,6 +1,11 @@
 #coding=utf-8
 #author='Shichao-Dong'
 
+'''
+统计jira数据
+'''
+
+
 from jira import JIRA
 import re
 import xlsxwriter
