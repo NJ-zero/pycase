@@ -13,5 +13,5 @@ windows下kill占用5037端口的进程
 #### realease文件夹
 统计build相关脚本，并生成报告，格式如下：
 
-![image](https://github.com/NJ-zero/pycase/tree/master/realease/detail.png)
-![image](https://github.com/NJ-zero/pycase/tree/master/realease/summary.png)
+![image](https://github.com/NJ-zero/pycase/raw/master/realease/summary.png)
+![image](https://github.com/NJ-zero/pycase/raw/master/realease/detail.png)
