@@ -1,0 +1,48 @@
+#coding=utf-8
+# 注释，用#标识，这一行都会被解析器忽略
+# 对象
+# name: waiqin365
+# detail:
+#  code: cus001
+#  type: market
+# 返回结果为 {'code': 'cus001', 'type': 'market', 'name': 'waiqin365'}
+# cus : {name: waiqin365,code: cus001,type: market}
+# 返回结果为 {'cus': {'code': 'cus001', 'type': 'market', 'name': 'waiqin365'}}
+
+# 数组
+#number: 12.30
+#adb: true
+---
+cus:
+  - 终端001
+  - 终端002
+  - 终端003
+detail:
+  type: {type1: a}
+  dept: dept1
+---
+  - info: visit
+    type: id
+  - info: cm
+    text: 终端门店
+  - customer
+  - jdjdhsj
+---
+  - info: visit1
+    type: id1
+  - info: cm1
+    text: 终端门店1
+  - customer1
+  - jdjdhsj1
+#---
+#name: The Set of Gauntlets 'Pauraegen'
+#description:
+#    A set of handgear with sparks that crackle across its knuckleguards.
+#---
+#name: The Set of Gauntlets 'Paurnen'
+#description:
+#    A set of gauntlets that gives off a foul,acrid odour yet remains untarnished.
+#---
+#name: The Set of Gauntlets 'Paurnimmen'
+#description:
+#    A set of handgear, freezing with unnatural cold.
