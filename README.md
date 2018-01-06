@@ -8,3 +8,10 @@ windows下kill占用5037端口的进程
 图片相似度对比
 #### jira_count.py
 统计jira数据
+#### change文件夹
+部署替换文件相关脚本
+#### realease文件夹
+统计build相关脚本，并生成报告，格式如下：
+
+![image](https://github.com/NJ-zero/pycase/raw/master/detail.png)
+![image](https://github.com/NJ-zero/pycase/raw/master/summary.png)
