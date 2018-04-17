@@ -9,7 +9,7 @@ windows下kill占用5037端口的进程
 - jira_count.py  
 统计jira数据
 - str_to_json文件夹
-用于将fiddler中复制出来的参数，转化为dict形式
+用于将fiddler中复制出来的参数，转化为dict
 - change文件夹  
 部署替换文件相关脚本
 - realease文件夹  
