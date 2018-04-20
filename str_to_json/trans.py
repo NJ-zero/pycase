@@ -27,11 +27,13 @@ def writejson(txt,newfile):
 
     jsonobj = json.dumps(newjson).decode('unicode-escape')
     print(jsonobj)
-
-    f =  open(newfile,'w')
-    f.write(jsonobj)
-    f.close()
-    print('生成文件成功')
+    try:
+        f =  open(newfile,'w')
+        f.write(jsonobj)
+        f.close()
+        print('生成文件成功')
+    except:
+        print('生成文件失败')
 
 
 
