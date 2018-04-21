@@ -21,9 +21,10 @@ def writejson(txt,newfile):
     lines = read(txt)
     newjson = {}
     for line in lines:
-        print(line.split()[1].decode('utf-8'))
-        value = line.split()[1].decode('utf-8')
-        newjson[line.split()[0]] = value
+        if len(line.split()) == 2:
+            print(line.split()[1].decode('utf-8'))
+            value = line.split()[1].decode('utf-8')
+            newjson[line.split()[0]] = value
 
     jsonobj = json.dumps(newjson).decode('unicode-escape')
     print(jsonobj)
