@@ -1,5 +1,7 @@
 # pycase
 ## python写的一些脚本
+- dinner.py
+随机数决定谁去拿饭卡
 - kill-5037.py   
 windows下kill占用5037端口的进程
 - mobile.py   
