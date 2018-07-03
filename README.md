@@ -1,5 +1,7 @@
 # pycase
 ## python写的一些脚本
+- demo-mm.py
+微信公众号webview测试脚本demo
 - dinner.py
 随机数决定谁去拿饭卡
 - kill-5037.py   
